@@ -14,12 +14,12 @@ The next variables represents the pixels you wanna
 count.
 I used one to count the pure red pixels (255, 0, 0)
 and one to count de maximum amount of pixels.
-Feel fre to change as your necessity.
+Feel free to change as your necessity.
 '''
 count_r = 0 #Pure red pixels.
 count_total = 0 #All image pixels.
 
-if (img.mode == "RGB"): #Tests the imagem major color channels.
+if (img.mode == "RGB"): #Tests the image color channels.
     for y in range(0, img_h): #Starts to count the image pixels.
       for x in range(0, img_w):
         xy = (x, y)
